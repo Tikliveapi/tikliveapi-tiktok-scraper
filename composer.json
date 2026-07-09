@@ -1,0 +1,20 @@
+{
+  "name": "tikliveapi/tiktok-scraper",
+  "description": "Advanced TikTok Scraper API Client for PHP. Scrape user profiles, followers, videos, hashtags, music and search data in real-time.",
+  "type": "library",
+  "keywords": ["tiktok", "tiktok-api", "tiktok-scraper", "scraper", "api", "social-media"],
+  "homepage": "https://www.tikliveapi.com/",
+  "license": "MIT",
+  "support": {
+    "docs": "https://www.tikliveapi.com/documentation/",
+    "source": "https://github.com/Tikliveapi/tikliveapi-tiktok-scraper"
+  },
+  "require": {
+    "php": ">=7.4",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "classmap": ["TikLiveAPI.php"]
+  }
+}
