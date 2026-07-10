@@ -1,10 +1,10 @@
-# TikLiveAPI — PHP Client
+# TikLiveAPI - PHP Client
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/tikliveapi/tiktok-scraper.svg)](https://packagist.org/packages/tikliveapi/tiktok-scraper)
 [![Total Downloads](https://img.shields.io/packagist/dt/tikliveapi/tiktok-scraper.svg)](https://packagist.org/packages/tikliveapi/tiktok-scraper)
 [![License](https://img.shields.io/packagist/l/tikliveapi/tiktok-scraper.svg)](https://packagist.org/packages/tikliveapi/tiktok-scraper)
 
-A simple PHP wrapper for [**TikLiveAPI**](https://www.tikliveapi.com/) — a fast, reliable **TikTok Scraper API** for real-time user, video, music, hashtag, and search data.
+A simple PHP wrapper for [**TikLiveAPI**](https://www.tikliveapi.com/) - a fast, reliable **TikTok Scraper API** for real-time user, video, music, hashtag, and search data.
 
 **Website:** [tikliveapi.com](https://www.tikliveapi.com/) · **Documentation:** [tikliveapi.com/documentation](https://www.tikliveapi.com/documentation/) · **Get an API key:** [tikliveapi.com](https://www.tikliveapi.com/)
 
