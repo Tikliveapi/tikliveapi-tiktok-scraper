@@ -1,6 +1,12 @@
-# TikLiveAPI PHP Client
+# TikLiveAPI — PHP Client
 
-A simple PHP wrapper for the [TikLiveAPI](https://www.tikliveapi.com/), the world's most popular TikTok Scraper API.
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/tikliveapi/tiktok-scraper.svg)](https://packagist.org/packages/tikliveapi/tiktok-scraper)
+[![Total Downloads](https://img.shields.io/packagist/dt/tikliveapi/tiktok-scraper.svg)](https://packagist.org/packages/tikliveapi/tiktok-scraper)
+[![License](https://img.shields.io/packagist/l/tikliveapi/tiktok-scraper.svg)](https://packagist.org/packages/tikliveapi/tiktok-scraper)
+
+A simple PHP wrapper for [**TikLiveAPI**](https://www.tikliveapi.com/) — a fast, reliable **TikTok Scraper API** for real-time user, video, music, hashtag, and search data.
+
+**Website:** [tikliveapi.com](https://www.tikliveapi.com/) · **Documentation:** [tikliveapi.com/documentation](https://www.tikliveapi.com/documentation/) · **Get an API key:** [tikliveapi.com](https://www.tikliveapi.com/)
 
 ## Features
 
@@ -10,13 +16,27 @@ A simple PHP wrapper for the [TikLiveAPI](https://www.tikliveapi.com/), the worl
 
 ## Installation
 
+### Composer (recommended)
+
+```bash
+composer require tikliveapi/tiktok-scraper
+```
+
+Then include Composer's autoloader:
+
+```php
+require 'vendor/autoload.php';
+```
+
+### Manual
+
 1. Download `TikLiveAPI.php` and include it in your project.
-2. Get your API Key from [TikLiveAPI Dashboard](https://www.tikliveapi.com/).
+2. Get your API key from the [TikLiveAPI Dashboard](https://www.tikliveapi.com/).
 
 ## Usage
 
 ```php
-require 'TikLiveAPI.php';
+require 'vendor/autoload.php'; // or: require 'TikLiveAPI.php';
 
 // Initialize with your API Key
 $api = new TikLiveAPI('YOUR_API_KEY');
