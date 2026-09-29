@@ -6,13 +6,20 @@
 
 A simple PHP wrapper for [**TikLiveAPI**](https://www.tikliveapi.com/) - a fast, reliable **TikTok Scraper API** for real-time user, video, music, hashtag, and search data.
 
-**Website:** [tikliveapi.com](https://www.tikliveapi.com/) · **Documentation:** [tikliveapi.com/documentation](https://www.tikliveapi.com/documentation/) · **Get an API key:** [tikliveapi.com](https://www.tikliveapi.com/)
+**Website:** [tikliveapi.com](https://www.tikliveapi.com/) · **Documentation:** [tikliveapi.com/documentation](https://www.tikliveapi.com/documentation/) · **Get an API key:** [tikliveapi.com/register](https://www.tikliveapi.com/register/)
 
 ## Features
 
 - **Easy to use:** Simple object-oriented interface.
-- **Fast:** Optimized for speed with low latency.
+- **Lightweight:** One class file; needs only PHP 7.4+ with the cURL and JSON extensions.
 - **Comprehensive:** Access User, Video, Search, and Music data.
+
+## Pricing and limits
+
+- New accounts get 100 free credits after email verification, no card required.
+- Pay-as-you-go: one successful request costs one credit, and credits never expire.
+- Standard rate limit: 200 requests per minute (can be raised on request).
+- Every request is fetched from TikTok in real time. TikLiveAPI does not store or cache TikTok data.
 
 ## Installation
 
@@ -31,7 +38,7 @@ require 'vendor/autoload.php';
 ### Manual
 
 1. Download `TikLiveAPI.php` and include it in your project.
-2. Get your API key from the [TikLiveAPI Dashboard](https://www.tikliveapi.com/).
+2. Create an account at [tikliveapi.com/register](https://www.tikliveapi.com/register/) and copy your API key from your profile page.
 
 ## Usage
 
@@ -106,6 +113,10 @@ print_r($info);
 - **Ads Detail** (`getAdsDetail`): Get ad details.
 
 For full documentation and parameter details, visit [https://www.tikliveapi.com/documentation/](https://www.tikliveapi.com/documentation/).
+
+## Disclaimer
+
+TikLiveAPI is an independent service and is not affiliated with TikTok or ByteDance. Use the data in line with TikTok's terms and the privacy laws that apply to you.
 
 ## License
 
